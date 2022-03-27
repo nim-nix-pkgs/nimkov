@@ -11,6 +11,7 @@
   inputs.src-nimkov-master.ref   = "refs/heads/master";
   inputs.src-nimkov-master.owner = "bit0r1n";
   inputs.src-nimkov-master.repo  = "nimkov";
+  inputs.src-nimkov-master.dir   = "";
   inputs.src-nimkov-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
